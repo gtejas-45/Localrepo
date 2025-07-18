@@ -1,3 +1,12 @@
 PS D:\GitDemo\Localrepo> git init
 Initialized empty Git repository in D:/GitDemo/Localrepo/.git/
 
+PS D:\GitDemo\Localrepo> git add .
+PS D:\GitDemo\Localrepo> git commit -m "adding pdf file in this all process"
+
+PS D:\GitDemo\Localrepo> git remote add origin https://github.com/gtejas-45/Localrepo.git
+PS D:\GitDemo\Localrepo> git remote -v
+origin  https://github.com/gtejas-45/Localrepo.git (fetch)
+origin  https://github.com/gtejas-45/Localrepo.git (push)
+
+git push origin main is last process

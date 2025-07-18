@@ -1,0 +1,99 @@
+To upload Java code from your **PC to GitHub**, follow these **step-by-step instructions** (you only need to do GitHub setup once — rest is standard Git flow):
+
+---
+
+## ✅ **1. Prerequisites**
+
+* Install **Git**: [https://git-scm.com/downloads](https://git-scm.com/downloads)
+* Create a **GitHub account**: [https://github.com](https://github.com)
+* Optional: Install a **code editor** like VS Code or IntelliJ.
+
+---
+
+## 📁 **2. Create a GitHub Repository**
+
+1. Go to GitHub → Click on `+` (top right) → **New repository**
+2. Enter a **repository name** (e.g., `JavaProjects`)
+3. Choose **public/private**, and leave README unchecked.
+4. Click **Create repository**
+
+---
+
+## 💻 **3. Open Terminal/Command Prompt on your PC**
+
+Navigate to the folder where your Java code exists:
+
+```bash
+cd path/to/your/java/project
+```
+
+If your folder is not a Git repo yet:
+
+```bash
+git init
+```
+
+---
+
+## 📄 **4. Add Your Files and Commit**
+
+```bash
+git add .
+```
+
+Add all files in the folder (you can use `git add <filename>` for specific files).
+
+```bash
+git commit -m "Initial commit of Java project"
+```
+
+---
+
+## 🔗 **5. Connect to GitHub Remote Repository**
+
+Go to your GitHub repo page → Copy the remote URL (either HTTPS or SSH).
+
+Then connect your local folder to GitHub:
+
+```bash
+git remote add origin https://github.com/your-username/JavaProjects.git
+```
+
+---
+
+## 🚀 **6. Push Code to GitHub**
+
+```bash
+git push -u origin master
+```
+
+> If you're using the newer default branch:
+
+```bash
+git push -u origin main
+```
+
+Git may ask for GitHub username and password — you can use a **personal access token (PAT)** instead of a password (recommended now).
+
+---
+
+## 🧪 Example
+
+```bash
+cd C:\Users\YourName\Documents\MyJavaApp
+git init
+git add .
+git commit -m "Upload My Java App"
+git remote add origin https://github.com/yourusername/MyJavaApp.git
+git push -u origin main
+```
+
+---
+
+## ✅ Done!
+
+Now check your GitHub repo — your Java code is uploaded!
+
+---
+
+Do you want a **video tutorial**, a **PDF cheat sheet**, or help with GitHub Desktop (GUI method)?
